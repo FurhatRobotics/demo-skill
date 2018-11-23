@@ -6,6 +6,16 @@ This is an example-skill aiming to:
 2. Showcase various functionality of the Furhat robot
 3. Invite Furhat owners to use the skill as-is or customized to demo their Furhat robot to other people
 
+The gist of the skill is that one user is a confederate, having a dialog with Furhat while also sometimes talking to other present users. Furhat will be in one of three modes:
+
+1. Sleeping - he will listen to wakeup words or if he hears something he finds interesting
+2. Active - in dialog
+3. Passive - awake and ready to serve, but not taking any initiatives
+
+## Recommended way of starting
+
+We recommend first running the skill and starting with waking Furhat up and followed by asking Furhat what he can do. Once you've ran through the skill a few times, you will have a better chance of understanding the code.
+
 ## Running the skill
 
 1. Clone the repository, `git clone https://github.com/FurhatRobotics/demo-skill`
