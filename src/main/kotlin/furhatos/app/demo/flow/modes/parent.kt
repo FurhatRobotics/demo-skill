@@ -1,9 +1,12 @@
 package furhatos.app.demo.flow.modes
 
-import furhatos.app.demo.flow.*
 import furhatos.app.demo.flow.partials.conversationalHandlers
 import furhatos.app.demo.flow.partials.functionalHandlers
-import furhatos.flow.kotlin.*
+import furhatos.app.demo.flow.wizardButtons
+import furhatos.flow.kotlin.State
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.onResponse
+import furhatos.flow.kotlin.state
 import furhatos.gestures.Gestures
 
 val Parent : State = state {

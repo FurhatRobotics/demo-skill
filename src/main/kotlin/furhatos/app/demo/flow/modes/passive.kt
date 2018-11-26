@@ -1,8 +1,8 @@
 package furhatos.app.demo.flow.modes
 
 import furhatos.app.demo.flow.Active
-import furhatos.app.demo.util.LookAround
 import furhatos.app.demo.nlu.ConversationalIntent
+import furhatos.app.demo.util.LookAround
 import furhatos.flow.kotlin.*
 import furhatos.nlu.NullIntent
 

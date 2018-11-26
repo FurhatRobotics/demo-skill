@@ -4,7 +4,10 @@ import furhatos.app.demo.personas.Persona
 import furhatos.flow.kotlin.UserDataDelegate
 import furhatos.nlu.common.PersonName
 import furhatos.records.User
-import furhatos.snippets.*
+import furhatos.snippets.RobotLabel
+import furhatos.snippets.UserLabel
+import furhatos.snippets.sessionLimit
+import furhatos.snippets.snippets
 
 object UT_Name : UserLabel()
 object UA_Name : UserLabel()

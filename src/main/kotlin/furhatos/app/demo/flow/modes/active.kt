@@ -1,18 +1,17 @@
 package furhatos.app.demo.flow
 
-import furhatos.app.demo.util.AttendUsers
 import furhatos.app.demo.flow.modes.Parent
 import furhatos.app.demo.flow.modes.Passive
-import furhatos.app.demo.util.ExitEvent
 import furhatos.app.demo.nlu.GoToPassiveIntent
 import furhatos.app.demo.personas.phrases
+import furhatos.app.demo.util.AttendUsers
+import furhatos.app.demo.util.ExitEvent
 import furhatos.app.demo.util.setLED
 import furhatos.autobehavior.setDefaultMicroexpression
 import furhatos.flow.kotlin.*
 import furhatos.gestures.Gestures
 import furhatos.nlu.NullIntent
 import furhatos.nlu.Response
-import furhatos.util.Language
 
 var modelChange = false
 

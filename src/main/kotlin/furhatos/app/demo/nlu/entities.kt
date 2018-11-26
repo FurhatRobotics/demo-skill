@@ -3,7 +3,8 @@ package furhatos.app.demo.nlu
 import furhatos.app.demo.personas.Persona
 import furhatos.app.demo.util.camelCaseToSpaces
 import furhatos.gestures.Gestures
-import furhatos.nlu.*
+import furhatos.nlu.EnumEntity
+import furhatos.nlu.EnumItem
 import furhatos.util.Language
 
 class LanguageEntity(val language: Language? = null) : EnumEntity() {

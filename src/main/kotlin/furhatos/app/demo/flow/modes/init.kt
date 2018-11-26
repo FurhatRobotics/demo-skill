@@ -1,29 +1,16 @@
 package furhatos.app.demo.flow
 
-import furhatos.app.demo.personas.DefaultPhrases
-import furhatos.app.demo.personas.Persona
-import furhatos.app.demo.personas.Phrases
-import furhatos.app.demo.personas.setPersona
 import furhatos.app.demo.PRELOAD_WIKIDATA_ENTITIES
-import furhatos.event.EventSystem
-import furhatos.event.senses.SenseInteractionSpaces
-import furhatos.event.senses.SenseUserEnter
-import furhatos.event.senses.SenseUserLeave
-import furhatos.flow.kotlin.*
+import furhatos.app.demo.personas.Persona
+import furhatos.app.demo.personas.setPersona
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.state
+import furhatos.flow.kotlin.users
 import furhatos.nlu.wikidata.City
 import furhatos.nlu.wikidata.Film
 import furhatos.nlu.wikidata.MusicArtist
 import furhatos.nlu.wikidata.MusicGenre
-import furhatos.records.Ellipse
-import furhatos.records.Location
-import furhatos.records.Space
-import furhatos.skills.EngagementPolicy
-import furhatos.skills.SimpleEngagementPolicy
-import furhatos.skills.UserManager
-import furhatos.util.CommonUtils
 import furhatos.util.Language
-import java.util.*
-import java.util.stream.Collectors
 
 val init = state {
     // Currently using a button as an indicator for the operator ;-)

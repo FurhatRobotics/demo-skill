@@ -1,9 +1,11 @@
 package furhatos.app.chitchat.snippets
 
 import furhatos.flow.kotlin.UserDataDelegate
-import furhatos.snippets.*
 import furhatos.nlu.wikidata.City
 import furhatos.records.User
+import furhatos.snippets.RobotLabel
+import furhatos.snippets.UserLabel
+import furhatos.snippets.snippets
 
 object UA_WhyFurhat : UserLabel()
 

@@ -3,7 +3,9 @@ package furhatos.app.demo.flow
 import furhatos.app.chitchat.snippets.chatSnippets
 import furhatos.app.demo.nlu.ExitIntent
 import furhatos.app.demo.util.AttendUsers
-import furhatos.flow.kotlin.*
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.onResponse
+import furhatos.flow.kotlin.state
 import furhatos.snippets.SnippetRunner
 import furhatos.snippets.SnippetState
 import furhatos.snippets.TakeInitiative

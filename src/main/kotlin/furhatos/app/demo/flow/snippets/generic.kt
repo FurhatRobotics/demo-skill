@@ -7,7 +7,8 @@ import furhatos.nlu.common.Thanks
 import furhatos.nlu.common.Yes
 import furhatos.records.User
 import furhatos.snippets.*
-import furhatos.snippets.UtteranceType.*
+import furhatos.snippets.UtteranceType.Request
+import furhatos.snippets.UtteranceType.Response
 
 object UA_Repeat : UserLabel(RequestRepeat())
 object UT_Thanks : UserLabel(Thanks())

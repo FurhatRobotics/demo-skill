@@ -6,7 +6,10 @@ import furhatos.app.demo.util.closest
 import furhatos.app.demo.util.getRandomNearbyLocation
 import furhatos.event.monitors.MonitorSpeechEnd
 import furhatos.event.senses.SenseSpeechStart
-import furhatos.flow.kotlin.*
+import furhatos.flow.kotlin.State
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.state
+import furhatos.flow.kotlin.users
 import java.util.*
 
 fun attendingUsers(shouldToggleAttention: Boolean = true) : State = state(autoBehavior()) {

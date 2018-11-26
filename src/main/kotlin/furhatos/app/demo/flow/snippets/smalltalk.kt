@@ -1,6 +1,8 @@
 package furhatos.app.chitchat.snippets
 
-import furhatos.snippets.*
+import furhatos.snippets.NoMatch
+import furhatos.snippets.RobotLabel
+import furhatos.snippets.snippets
 
 object RT_HasntSeenUser : RobotLabel()
 object RA_ComeHereOften : RobotLabel()

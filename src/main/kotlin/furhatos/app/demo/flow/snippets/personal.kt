@@ -1,11 +1,13 @@
 package furhatos.app.chitchat.snippets
 
+import furhatos.app.demo.personas.Persona
 import furhatos.flow.kotlin.UserDataDelegate
 import furhatos.nlu.common.Color
 import furhatos.nlu.common.Number
 import furhatos.records.User
-import furhatos.snippets.*
-import furhatos.app.demo.personas.Persona
+import furhatos.snippets.NoMatch
+import furhatos.snippets.UserLabel
+import furhatos.snippets.snippets
 
 object UT_FavoriteColor : UserLabel()
 

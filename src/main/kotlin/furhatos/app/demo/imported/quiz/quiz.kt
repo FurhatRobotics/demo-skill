@@ -4,12 +4,12 @@ import furhatos.app.demo.flow.Return
 import furhatos.flow.kotlin.*
 import furhatos.flow.kotlin.voice.PollyVoice
 import furhatos.gestures.Gestures
-import furhatos.util.Language
 import furhatos.nlu.common.No
 import furhatos.nlu.common.RequestRepeat
 import furhatos.nlu.common.Yes
 import furhatos.records.User
 import furhatos.util.Gender
+import furhatos.util.Language
 
 // Variables
 

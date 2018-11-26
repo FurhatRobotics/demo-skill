@@ -2,8 +2,8 @@ package furhatos.app.demo
 
 import furhatos.app.demo.flow.autoBehavior.autoBehavior
 import furhatos.app.demo.flow.init
+import furhatos.flow.kotlin.Flow
 import furhatos.skills.Skill
-import furhatos.flow.kotlin.*
 import furhatos.util.CommonUtils
 
 val log = CommonUtils.getLogger(DemoSkill::class.java)

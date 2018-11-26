@@ -2,13 +2,13 @@ package furhatos.app.demo.flow.partials
 
 import furhatos.app.demo.flow.Active
 import furhatos.app.demo.flow.Sleeping
-import furhatos.app.demo.util.AttendUsers
 import furhatos.app.demo.flow.snippetRunner
 import furhatos.app.demo.nlu.ExitIntent
 import furhatos.app.demo.nlu.NoIntent
 import furhatos.app.demo.nlu.WakeupIntent
 import furhatos.app.demo.personas.Persona
 import furhatos.app.demo.personas.phrases
+import furhatos.app.demo.util.AttendUsers
 import furhatos.app.demo.util.ExitEvent
 import furhatos.flow.kotlin.furhat
 import furhatos.flow.kotlin.onResponse

@@ -1,6 +1,5 @@
 package furhatos.app.demo.nlu
 
-import furhatos.nlu.EnumEntity
 import furhatos.nlu.Intent
 import furhatos.nlu.common.Color
 import furhatos.util.Language

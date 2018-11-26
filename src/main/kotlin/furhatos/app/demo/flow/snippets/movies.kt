@@ -4,7 +4,6 @@ import furhatos.app.demo.personas.Persona
 import furhatos.flow.kotlin.future
 import furhatos.nlu.wikidata.Film
 import furhatos.snippets.*
-import furhatos.util.random
 
 object MoviesTopic : Topic()
 

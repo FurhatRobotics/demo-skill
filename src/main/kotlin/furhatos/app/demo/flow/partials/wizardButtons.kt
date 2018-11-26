@@ -3,10 +3,12 @@ package furhatos.app.demo.flow
 import furhatos.app.demo.flow.modes.Passive
 import furhatos.app.demo.imported.quiz.Idle
 import furhatos.app.demo.personas.Persona
-import furhatos.app.demo.LOOK_AROUND_ALLOWED
 import furhatos.app.demo.util.LanguageChange
 import furhatos.app.demo.util.PersonaChange
-import furhatos.flow.kotlin.*
+import furhatos.flow.kotlin.Color
+import furhatos.flow.kotlin.Section
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.partialState
 
 val wizardButtons = partialState {
     onButton("Go to Sleeping", section = Section.LEFT, color = Color.Red) {

@@ -2,7 +2,10 @@ package furhatos.app.chitchat.snippets
 
 import furhatos.app.demo.SKIP_WIKIDATA
 import furhatos.records.User
-import furhatos.snippets.*
+import furhatos.snippets.RobotLabel
+import furhatos.snippets.SnippetRunner
+import furhatos.snippets.hasTopicInitiative
+import furhatos.snippets.snippets
 import furhatos.util.Language
 
 object RT_Goodbye : RobotLabel()

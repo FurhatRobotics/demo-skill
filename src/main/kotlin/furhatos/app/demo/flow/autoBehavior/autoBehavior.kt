@@ -1,7 +1,9 @@
 package furhatos.app.demo.flow.autoBehavior
 
 import furhatos.app.demo.util.*
-import furhatos.flow.kotlin.*
+import furhatos.flow.kotlin.State
+import furhatos.flow.kotlin.furhat
+import furhatos.flow.kotlin.state
 
 fun autoBehavior(shouldReset : Boolean = true) : State = state {
     onEntry {

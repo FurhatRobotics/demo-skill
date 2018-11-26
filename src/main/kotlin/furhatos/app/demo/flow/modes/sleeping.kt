@@ -1,8 +1,10 @@
 package furhatos.app.demo.flow
 
-import furhatos.app.demo.util.LookStraight
 import furhatos.app.demo.flow.modes.Parent
-import furhatos.app.demo.nlu.*
+import furhatos.app.demo.nlu.ChatIntent
+import furhatos.app.demo.nlu.ConversationalIntent
+import furhatos.app.demo.nlu.WakeupIntent
+import furhatos.app.demo.util.LookStraight
 import furhatos.app.demo.util.setLED
 import furhatos.autobehavior.setDefaultMicroexpression
 import furhatos.flow.kotlin.*

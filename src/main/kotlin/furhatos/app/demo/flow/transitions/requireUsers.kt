@@ -1,8 +1,8 @@
 package furhatos.app.demo.flow
 
-import furhatos.app.demo.util.StopAutoBehavior
 import furhatos.app.demo.flow.modes.Parent
 import furhatos.app.demo.nlu.ExitIntent
+import furhatos.app.demo.util.StopAutoBehavior
 import furhatos.flow.kotlin.*
 import furhatos.gestures.Gestures
 

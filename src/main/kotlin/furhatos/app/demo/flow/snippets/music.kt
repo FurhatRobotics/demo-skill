@@ -1,5 +1,6 @@
 package furhatos.app.chitchat.snippets
 
+import furhatos.app.demo.personas.Persona
 import furhatos.flow.kotlin.UserDataDelegate
 import furhatos.flow.kotlin.future
 import furhatos.nlu.wikidata.MusicArtist
@@ -7,7 +8,6 @@ import furhatos.nlu.wikidata.MusicGenre
 import furhatos.records.User
 import furhatos.snippets.*
 import furhatos.util.random
-import furhatos.app.demo.personas.Persona
 
 object MusicTopic : Topic()
 

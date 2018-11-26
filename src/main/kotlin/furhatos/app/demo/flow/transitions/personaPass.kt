@@ -1,11 +1,11 @@
 package furhatos.app.demo.flow
 
-import furhatos.app.demo.util.AttendUsers
 import furhatos.app.demo.log
 import furhatos.app.demo.nlu.*
 import furhatos.app.demo.personas.Persona
 import furhatos.app.demo.personas.phrases
 import furhatos.app.demo.personas.setPersona
+import furhatos.app.demo.util.AttendUsers
 import furhatos.app.demo.util.getSpokenForm
 import furhatos.flow.kotlin.furhat
 import furhatos.flow.kotlin.onResponse
