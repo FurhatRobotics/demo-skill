@@ -6,9 +6,13 @@ This is an example-skill aiming to:
 2. Showcase various functionality of the Furhat robot
 3. Invite Furhat owners to use the skill as-is or customized to demo their Furhat robot to other people
 
-The gist of the skill is that one user is a confederate, having a dialog with Furhat while also sometimes talking to other present users. Furhat will be in one of three modes:
+## What the skill does
 
-1. Sleeping - he will listen to wakeup words or if he hears something he finds interesting
+The gist of the skill is that one user is a confederate, having a dialog with Furhat and asking him to do things, but also sometimes talking to other present users. 
+
+Furhat will be in one of three modes:
+
+1. Sleeping - his starting mode, where he will listen to wakeup words or if he hears something he finds interesting
 2. Active - in dialog
 3. Passive - awake and ready to serve, but not taking any initiatives
 
