@@ -16,6 +16,8 @@ The gist of the skill is that one user is a confederate, having a dialog with Fu
 
 We recommend first running the skill and starting with waking Furhat up and followed by asking Furhat what he can do. Once you've ran through the skill a few times, you will have a better chance of understanding the code.
 
+> **Note**: The skill has certain elements that will not work on the Virtual Furhat, and that require our custom Dog mask and texture for the robot to work as intended. These are still included in the skill for developers to learn what is possible, so if you do a demo please avoid or do work-arounds for these.
+
 ## Running the skill
 
 1. Clone the repository, `git clone https://github.com/FurhatRobotics/demo-skill`
