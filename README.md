@@ -8,7 +8,7 @@ This is an example-skill aiming to:
 
 ## What the skill does
 
-The gist of the skill is that one user is a confederate, having a dialog with Furhat and asking him to do things, but also sometimes talking to other present users. 
+The gist of the skill is that one user is a confederate, having a dialog with Furhat and asking him to do things, but also sometimes talking to other present users.
 
 Furhat will be in one of three modes:
 
@@ -35,9 +35,9 @@ We will actively support this skill and make sure it always is in sync with the 
 
 If you have any issues, feedback or ideas, feel free to;
 
-1. Create an issue on Github
-2. Contact us on support (at) furhatrobotics.com
-3. Let us know on the community chat channel
+1. Create an issue on [Github](https://github.com/FurhatRobotics/demo-skill/issues)
+2. Contact us on [support (at) furhatrobotics.com](mailto:support@furhatrobotics.com)
+3. Let us know on the community chat channel - [contact us for an invitation](mailto:support@furhatrobotics.com)
 
 ## Contributions
 
